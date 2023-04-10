@@ -1,0 +1,33 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background: black;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.header-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    background: black;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

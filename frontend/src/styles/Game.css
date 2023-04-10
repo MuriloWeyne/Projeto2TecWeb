@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(233, 232, 245);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+}
+
+.Game {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardDiv {
+    background-color: whitesmoke;
+    padding: 2rem;
+    box-shadow: 2px 2px 10px 1px teal;
+    border-radius: 20px;
+}
+.playerName {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.discard {
+    margin-top: 10rem;
+}
+
+.discard-hand, .player-hand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cheatsheets {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.hand,.player-hand{
+    width: 100vw;
+}
+.player-hand > *{
+    width: 95vw;
+}
+.tophand-cheatsheet, .middlehand-cheatsheet, .bottomhand-cheatsheet {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

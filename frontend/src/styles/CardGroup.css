@@ -1,0 +1,35 @@
+.list {
+	display: flex;
+	overflow:scroll;
+	width: 50rem;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 1rem;
+	padding-right: 0;
+	height: 6rem;
+	overflow: auto;
+	/* gap: 1rem; */
+	margin: 1rem;
+	border: 2px lightblue solid;
+	border-radius: 20px;
+	background-color: lightgray;
+	flex-direction: row;
+  }
+  .card {
+	text-align: center;
+	background-color: white;
+	height: 4rem;
+	line-height: 4rem;
+	margin-right: 1rem;
+	min-width: 8rem;
+	font-weight: bold;
+	font-size: 	1.4rem;
+  }
+  h2{
+	margin: 0;
+
+
+  }
+  .red {
+	color: red;
+  }
